@@ -1,0 +1,6 @@
+#!/bin/bash
+#This Script by ALKHANET (http://github.com/alkhanet26)
+
+echo -e "Menguji Kecepatan Internet"
+
+speedtest --progress=no
