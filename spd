@@ -6,7 +6,9 @@ up="$1"
 if [ "$1" = "up" ]; then
 echo -e "Downloading Binaries"
 wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/spd/main/speedtest" -O /usr/bin/speedtest && chmod +x /usr/bin/speedtest
+clear
+spd
 else
-echo -e "Menguji Kecepatan Internet"
+echo-e "Menguji Kecepatan Internet"
 speedtest --progress=no
 fi
